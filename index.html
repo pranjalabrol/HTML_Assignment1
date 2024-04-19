@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Airtribe
+   </title>
+   <style>
+      /* CSS styles for the card container */
+      .card-container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+      }
+      
+      /* CSS styles for the individual card */
+      .card {
+          width: 300px;
+          padding: 20px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          background-color: #f9f9f9;
+      }
+  </style>
+</head>
+
+<body>
+   <header> <!--  Using header for creating top-most part of application which contains logo and introductory elements -->
+      <img src="airtribe_logo.jpeg" alt="Airtribe Logo"> <!-- using img tag to add logo. Currently not using any css so it is not properly aligned-->
+      
+      <span>Airtribe</span>
+      <nav>
+         <ul>
+            <li>
+               <input type="text" placeholder="Search for sessions, video lessons, etc">
+            </li>
+            <li>
+               <button>105</button>
+            </li>
+            <li>
+               <button>Profile</button>
+            </li>
+         </ul>
+      </nav>
+   </header>
+
+   <main>
+      <nav>
+         <h3>Full-stack Development Launchpad</h3>
+         <br>
+         <section> <!--  to create different section -->
+            <h5>General</h5>
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Resource hub</a></li>
+               <li><a href="#">Achievements</a></li>
+            </ul>
+         </section>
+         <section>
+            <h5>Learning Activities</h5>
+            <ul>
+               <li><a href="#">Modules</a></li>
+               <li><a href="#">Projects</a></li>
+            </ul>
+         </section>
+         <section>
+            <h5>Community</h5>
+            <ul>
+               <li><a href="#">Tribe</a></li>
+               <li><a href="#">Leaderboard</a></li>
+               <li><a href="#">Discussions</a></li>
+            </ul>
+         </section>
+         <section>
+            <h5>Support</h5>
+            <ul>
+               <li><a href="#">FAQ</a></li>
+               <li><a href="#">Hire from us</a></li>
+            </ul>
+         </section>
+      </nav>
+      <div class="center-section">  
+         <div class="top-container"> <!--   to create a container.Adding css just for show.Currently focusing on html part -->
+            <div class="headlines">
+               <h2>Welcome back, UserName!</h2>
+            </div>
+            <div class="section">
+               <p>"Life isn't about getting and having, it's about giving and being." -Kevin Kruse</p>
+            </div>
+         </div>
+         <div class="center-container">
+         <div class="heading">
+            <h3>Upcoming session</h3>
+         </div>
+         <div>
+            <a>Intro to CSS</a>
+            <span>Apr 14, 12:30PM - 2:30 PM</span>
+            <button class="right mx-2"> Join session</button>
+         </div>
+
+      </div>
+      <div class="card-container">
+         <div class="card">
+             <h2>Learning Minutes</h2>
+             <p>200 mins</p>
+         </div>
+         <div class="card">
+             <h2>Attendance</h2>
+             <p>6 sessions</p>
+         </div>
+         
+     </div>
+   </div>
+   <div class="sideNav">
+      <nav>
+         <ol>
+            <li>
+               Introduction to CSS
+            </li>
+            <li>
+              Knowing the basics of HTML
+            </li>
+            <li>
+               Intro to CSS 2
+             </li>
+             <li>
+               Knowing the basics of HTML
+             </li>
+             
+         </ol>
+      </nav>
+   </div>
+   </main>
+
+</body>
+
+</html>
